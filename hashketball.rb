@@ -203,7 +203,7 @@ def player_stats(player)
         team_data[:players].each do |player_name,player_data|
           if player_name == player
             player_data.each do |key, value|
-              puts player_data
+              player_data
             end
           end
         end
